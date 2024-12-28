@@ -14,6 +14,7 @@ plt.rc("savefig", dpi=90)
 def download(tickers: list, years: int):
     end_date = dt.datetime.now()
     start_date = end_date - dt.timedelta(days= 365 * years)
+
     data = yf.download(tickers, start= start_date, end= end_date, interval= '1d')['Adj Close']
     return data
 
