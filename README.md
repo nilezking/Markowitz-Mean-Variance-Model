@@ -1,4 +1,7 @@
 # Portfolio Optimization
+
+![Portfolio Chart](https://raw.githubusercontent.com/nilezking/Markowitz-Mean-Variance-Model/main/Figure_1.png)
+
 ## Overview
 
 This project implements portfolio optimization techniques including maximizing the Sharpe ratio, minimizing volatility, and generating the efficient frontier. It also includes visualization tools to plot the efficient frontier, maximum Sharpe ratio, minimum volatility, and correlation heatmap of asset returns. The portfolio optimization is performed using historical stock data and custom constraints, with the option to apply L2 regularization. Optimization process rely on numerical methods. Purpose of the project is to assist the portfolio manager in asset allocation.
