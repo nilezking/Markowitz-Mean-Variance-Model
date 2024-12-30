@@ -355,5 +355,5 @@ def main(tickers: list, years: int):
     summary(result_max_sharpe, result_minimum_variance, result_efficient_frontier, minimum_variance_sharpe, minimum_variance_returns, minimum_variance_stdev, max_sharpe_returns, max_sharpe_stdev, method, max_sharpe_allocation, minimum_variance_allocation, data, constraints, lambda_coeff, amount)
     return plotting
 
-r = main(["SAMPO.HE", "ENENTO.HE", "KCR.HE", "GOFORE.HE", "NESTE.HE", "OMASP.HE", "QTCOM.HE", "REG1V.HE", "VALMT.HE", "ICP1V.HE", "METSO.HE", "KNEBV.HE", "NDA-FI.HE"], 1)
+#r = main(["SAMPO.HE", "ENENTO.HE", "KCR.HE", "GOFORE.HE", "NESTE.HE", "OMASP.HE", "QTCOM.HE", "REG1V.HE", "VALMT.HE", "ICP1V.HE", "METSO.HE", "KNEBV.HE", "NDA-FI.HE"], 1)
 plt.show()
